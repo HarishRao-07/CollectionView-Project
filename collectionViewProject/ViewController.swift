@@ -52,3 +52,18 @@ extension ViewController: UICollectionViewDelegate,UICollectionViewDataSource{
     
 }
 
+extension ViewController:UICollectionViewDelegateFlowLayout{
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        
+        let collectionWidth = collectionView.bounds.width
+        return CGSize(width: collectionWidth/3-2, height: collectionWidth/3-2)
+        
+    }
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
+       return 2
+    }
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
+      return  2
+    }
+}
