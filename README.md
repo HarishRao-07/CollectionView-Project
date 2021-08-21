@@ -9,7 +9,7 @@ In this project, Setup of collectionview is done by adding watches image.
  
  Below picture shows collectionviewflowlayout.
  
- ![Simulator Screen Shot - iPhone XR - 2021-08-21 at 16 05 25](https://user-images.githubusercontent.com/88314161/130319350-bf132075-e154-4e74-9309-35b2169cd2f4.png)
-
+<p align = "center">
+ <img src="https://user-images.githubusercontent.com/88314161/130319350-bf132075-e154-4e74-9309-35b2169cd2f4.png" width="250" height="500" />
 
 
