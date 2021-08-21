@@ -9,8 +9,5 @@ In this project, Setup of collectionview is done by adding watches image.
  
  Below picture shows collectionviewflowlayout.
  
- <p align = "center">
- <img scr = "https://user-images.githubusercontent.com/88314161/130319350-bf132075-e154-4e74-9309-35b2169cd2f4.png" width="250" height="500" />
-
 
 
